@@ -1,3 +1,40 @@
+# Backpack CRUD v4.1
+
+> :Note: [Laravel backpack v4.1 does not support laravel v9.0](https://github.com/Laravel-Backpack/CRUD/pull/4094#issuecomment-1047471991)
+
+This is a version of backpack v4.1 which i add support for laravel ^9.0.
+
+Each release of backpack v4.1 will be sync into 4.1-L9 branch.
+
+## Installation
+
+Uninstall previous installed backpack
+
+```
+$ composer remove backpack/crud
+```
+
+Add this to your composer.json file
+
+```jsonc
+{
+    repositories: [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lakuapik/laravel-backpack-crud-4.1"
+        }
+    ]
+}
+```
+
+Then run:
+
+```bash
+$ composer require backpack/crud:dev-4.1-L9
+```
+
+----
+
 <br>
 <p align="center">
     <a href="https://backpackforlaravel.com" title="Backpack Logo"><img src="https://backpackforlaravel.com/presentation/img/backpack/logos/backpack_logo_color.png" style="max-width: 600px"></a>
